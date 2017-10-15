@@ -7,12 +7,14 @@
 
     <ui:composition template="/template.xhtml">
         <ui:define name="title">
-            <h:outputText value="#{bundle.ViewEtwasTitle}"></h:outputText>
-        </ui:define>
+            <center>
+            <h:outputText value="#{bundle.ViewEtwasTitle}"></h:outputText></center>
+        </ui:define>  
         <ui:define name="body">
             <h:panelGroup id="messagePanel" layout="block">
                 <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
             </h:panelGroup>
+            <center>  
             <h:form>
                 <h:panelGrid columns="2">
                     <h:outputText value="#{bundle.ViewEtwasLabel_id}"/>
@@ -32,6 +34,7 @@
                 <h:link outcome="/index" value="#{bundle.ViewEtwasIndexLink}"/>
 
             </h:form>
+            </center>
         </ui:define>
     </ui:composition>
 

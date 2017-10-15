@@ -7,9 +7,11 @@
 
     <ui:composition template="/template.xhtml">
         <ui:define name="title">
-            <h:outputText value="#{bundle.ListEtwasTitle}"></h:outputText>
+            <center>
+                <h:outputText value="#{bundle.ListEtwasTitle}"></h:outputText></center>
         </ui:define>
         <ui:define name="body">
+            <center>
             <h:form styleClass="jsfcrud_list_form">
                 <h:panelGroup id="messagePanel" layout="block">
                     <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
@@ -44,6 +46,7 @@
                 <br />
                 <h:link outcome="/index" value="#{bundle.ListEtwasIndexLink}"/>
             </h:form>
+            </center>
         </ui:define>
     </ui:composition>
 
