@@ -1,2 +1,2 @@
 # ttt
-Simple project for saving and retrieving some code.
+Simple scratch for saving and retrieving a code.
