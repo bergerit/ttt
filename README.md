@@ -1,2 +1,2 @@
 # ttt
-Simple scratch for saving and retrieving written data.
+Very simple Netbeans project for saving and retrieving written data. Using REST, JPA, Java DB and JSF.
